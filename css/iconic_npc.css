@@ -1,0 +1,195 @@
+
+.iconicWeaponBox{
+    width: 270px;
+    font-size: 0.85em;
+}
+
+
+.iconicArmourBox{
+    width: 270px;
+    font-size: 0.85em;
+}
+
+.footnote2{
+	font-size: 0.8em;
+	font-style: italic;
+    color: white;
+    margin-left: 180px;
+}
+
+.content_iconic {
+    width: 700px;
+    margin: 0px auto;
+}
+
+.iconic_paragraph{
+    padding-left: 55px;
+}
+
+
+.alignmentBoxIconic{
+    float: right;
+    width: 200px;
+    margin-right: 100px;
+    font-size: 0.85em;
+}
+.arifactBoxIconic{
+    width: 270px;
+    font-size: 0.85em;
+}
+
+.formIputDescription2Iconic{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 75px;
+    margin-left: 142px;
+}
+
+.formIputDescriptionIconic{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+.formIputDescription8Iconic{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 85px;
+    margin-left: 140px;
+}
+
+.formIputDescription4Iconic{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 140px;
+}
+
+.formIputDescription5Iconic{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 108px;
+    margin-left: 140px;
+}
+
+
+.dropdownmenu2Iconic {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 180px;
+    width: 220px;
+}
+
+
+.generatorButtonA2Iconic {
+	margin-top: 30px;
+	/*display: inline-block;*/
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+
+
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion_zahra {
+    background-color: #303030;
+    /*color: black;*/
+    cursor: pointer;
+    /*padding: 18px;*/
+    width: 700px;
+    /*text-align: left;*/
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 5px;
+	background-image: url(../images/buttons_iconic/button_zahra1.png);
+	background-repeat: no-repeat;
+    height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion_zahra.active{
+    /*background-color:  #e7cb73;*/
+	background-image: url(../images/buttons_iconic/button_zahra2.png);
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+button.accordion_zahra:hover {
+    /*background-color:  #e7cb73;*/
+	background-image: url(../images/buttons_iconic/zahra_button_hover.png);
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+
+
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion_kaneenawup {
+    background-color: #303030;
+    /*color: black;*/
+    cursor: pointer;
+    /*padding: 18px;*/
+    width: 700px;
+    /*text-align: left;*/
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 5px;
+	background-image: url(../images/buttons_iconic/button_kaneenawup1.png);
+	background-repeat: no-repeat;
+    height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion_kaneenawup.active{
+    /*background-color:  #e7cb73;*/
+	background-image: url(../images/buttons_iconic/button_kaneenawup2.png);
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+button.accordion_kaneenawup:hover {
+    /*background-color:  #e7cb73;*/
+	background-image: url(../images/buttons_iconic/kaneenawup_button_hover.png);
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+/* Style the accordion2 panel. Note: hidden by default */
+div.panel_iconic {
+    padding: 0px;
+    background-color: #303030;
+    display: none;
+    width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+
+
+#generate_characters3 {
+	background-image: url(../images/buttons/character_button.png);
+
+}
+
+#generate_characters3:hover {
+	background-image: url(../images/buttons/character_button2.png);
+
+}
+
+

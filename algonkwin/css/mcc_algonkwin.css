@@ -1,0 +1,336 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+/*
+Character 1
+*/
+
+#name{
+    position: absolute;
+    top: 125px;
+    left: 255px;
+	font-size: 0.9em;
+}
+
+#profession{
+    position: absolute;
+    top: 125px;
+    left: 740px;
+	font-size: 0.9em;
+}
+
+
+
+#languageGroup{
+    position: absolute;
+    top: 695px;
+    left: 70px;
+    font-size: 0.75em;
+    width: 300px;
+}
+
+#strength{
+    position:absolute;
+    top: 378px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 378px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+#agility{
+    position:absolute;
+    top: 420px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 420px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 465px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 465px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 508px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 508px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 550px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 550px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 593px;
+    left: 260px;
+	font-size: 1.8em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 593px;
+    left: 335px;
+	font-size: 1.8em;
+}
+
+
+
+#baseAC{
+	position: absolute;
+    top: 290px;
+    left: 145px;
+	font-size: 1.5em;
+}
+
+
+#level{
+	position: absolute;
+    top: 185px;
+    left: 265px;
+	font-size: 0.9em;
+}
+
+
+#title{
+	position: absolute;
+    top: 185px;
+    left: 345px;
+	font-size: 0.9em;
+}
+
+
+
+#birthAugur{
+    position: absolute;
+    top: 490px;
+    left:  705px;
+	width: 200px;
+	font-size: 0.85em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 285px;
+    left: 360px;
+	font-size: 1.4em;
+}
+
+
+#actionDice{
+    position: absolute;
+    top: 185px;
+    left: 610px;
+	font-size: 0.9em;
+}
+
+
+
+
+#init{
+    position: absolute;
+    top: 265px;
+    left:  550px;
+	font-size: 1.5em;
+}
+
+#ref{
+    position: absolute;
+    top: 303px;
+    left:  550px;
+	font-size: 1.5em;
+}
+
+#fort{
+    position: absolute;
+    top: 340px;
+    left:  550px;
+	font-size: 1.5em;
+}
+
+#will{
+    position: absolute;
+    top: 376px;
+    left:  550px;
+	font-size: 1.5em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 380px;
+    left:  865px;
+	font-size: 1.2em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 420px;
+    left:  860px;
+	font-size: 0.9em;
+}
+
+
+
+#melee{
+    position: absolute;
+    top: 285px;
+    left:  790px;
+	font-size: 1.4em;
+}
+
+
+#range{
+    position: absolute;
+    top: 320px;
+    left:  790px;
+	font-size: 1.4em;
+}
+
+
+#meleeDamage{
+    position: absolute;
+    top: 285px;
+    left:  865px;
+	font-size: 1.4em;
+}
+
+
+#rangeDamage{
+    position: absolute;
+    top: 320px;
+    left:  865px;
+	font-size: 1.4em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 185px;
+    left: 750px;
+	font-size: 0.9em;
+}
+
+#critTable{
+    position: absolute;
+    top: 183px;
+    left: 840px;
+	font-family: serif;
+	font-size: 1.1em;
+}
+
+
+
+
+#artifactCheck{
+    position: absolute;
+    top: 490px;
+    left:  465px;
+    font-size: 1.3em;
+}
+
+#maxTech{
+    position: absolute;
+    top: 520px;
+    left:  615px;
+    font-size: 1.5em;
+}
+
+
+#artifactBonusDie{
+    position: absolute;
+    top: 575px;
+    left: 475px;
+	font-size: 1.3em;
+}
+
+
+
+
+#equipmentGear{
+    position: absolute;
+    top: 940px;
+    left: 450px;
+    width: 460px;
+	font-size: 0.7em;
+}
